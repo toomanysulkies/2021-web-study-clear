@@ -1,0 +1,58 @@
+.wrapper {
+  background-color: white;
+  position: relative;
+}
+.wrapper .wrap {
+  background-color: rgba(255, 255, 255, 0.137);
+  overflow: hidden;
+}
+.wrap1 {
+  width: 200px;
+  height: 200px;
+  border: 0.1px solid rgba(0, 0, 0, 0.068);
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.wrap2 {
+  width: 200px;
+  height: 200px;
+  border: 0.1px solid rgba(0, 0, 0, 0.123);
+  position: absolute;
+  left: 20px;
+  top: 90px;
+}
+.wrap-img {
+  width: 120%;
+  opacity: 0.4;
+}
+.wrap5 > .wrap-img {
+  width: 120%;
+  transform: translate(-10%, -50%);
+  opacity: 0.4;
+}
+.wrap3 {
+  width: 250px;
+  height: 200px;
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+.wrap4 {
+  width: 200px;
+  height: 200px;
+  border: 0.1px solid rgba(0, 0, 0, 0.217);
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+.wrap5 {
+  width: 290px;
+  height: 200px;
+  border: 0.1px solid rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 500px;
+  top: 500px;
+}
